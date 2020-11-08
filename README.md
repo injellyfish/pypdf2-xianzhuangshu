@@ -41,7 +41,7 @@ def xianzhuang_pdf(origin_file,new_file):
             z = 1
             y = 0
             
-            for w in range(0,pl):  # 每一册里执行次          
+            for w in range(0,pl):        
                 pageObj1 = pread.getPage(sp*k+sp-z) 
                 pwrite.addPage(pageObj1)
                 
